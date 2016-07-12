@@ -8,8 +8,9 @@
     "aschroder/smtp_pro": "v2.0.5",
     "gordonlesti/lesti_fpc": "1.3.6",
     "jeroenvermeulen/solarium": "v1.6.9-beta",
-    "magento-hackathon/magento-composer-installer": "v2.1.1",
-    "magento/core": "1.9.1.0-patch1"
+    "magento-hackathon/magento-composer-installer": "v3.0.6",
+    "aydin-hassan/magento-core-composer-installer": "v1.3.0",
+    "magento/magento": "1.9.2.2"
   },
   "require-dev": {
     "aoepeople/aoe_profiler": "v0.3.0",
@@ -21,6 +22,10 @@
     {
       "type": "composer",
       "url": "https://packages.firegento.com"
+    },
+    {
+        "type": "vcs",
+        "url": "git@github.com:AydinHassan/magento-community.git"
     }
   ],
   "extra": {
